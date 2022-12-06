@@ -80,9 +80,13 @@ Request를 받아 처리하는 로직이다.
 ![image](https://user-images.githubusercontent.com/118959734/205816909-bfa95e90-f12b-41b2-b9ef-49dbb4ef744b.png)
 
 ### 5.Circuit Breaker  
+
 timeout 시간 설정
+
 ![image](https://user-images.githubusercontent.com/118959734/205817607-07570e57-a781-420b-97ce-0bf8622cd74b.png)
+
 Circuit Breaker 가 발동되면 fallback 에서 throw를 내놓도록 설정
+
 ![image](https://user-images.githubusercontent.com/118959734/205818155-53930fee-3b88-425d-9d46-3564fd639e99.png)
 ![image](https://user-images.githubusercontent.com/118959734/205820120-84133582-b580-4735-ac6e-18504cd470e3.png)
 
