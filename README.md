@@ -68,6 +68,7 @@ OrderPlace, Paid, OrderAccept, OrderReject, OrderStart, OrderFinish, Pick 와 �
 ### 3.Compensation/Correlation 
 주문하면 아래와 같이 payment에 저장된다.
 ![image](https://user-images.githubusercontent.com/118959734/205810461-818f34fb-c644-48a2-bedd-5189608de4c3.png)
+
 ![image](https://user-images.githubusercontent.com/118959734/205810817-ef75b05d-43a8-4ef0-beef-e9b31d08ac8d.png)
 
 ![image](https://user-images.githubusercontent.com/118959734/205811751-f2f9ea66-199a-4b4f-85a2-113125f08cfb.png)
@@ -75,8 +76,11 @@ OrderPlace, Paid, OrderAccept, OrderReject, OrderStart, OrderFinish, Pick 와 �
 
 ### 4.Request/Response  
 주문 취소시의 결제가 되어있는지 확인을 한뒤 결제가 되어있고 아직 요리를 시작하지 않았다면 결제 취소를 요청한다.
+
 ![image](https://user-images.githubusercontent.com/118959734/205816088-e164f457-3866-4952-9a1a-7f09cfef3345.png)
+
 Request를 받아 처리하는 로직이다.
+
 ![image](https://user-images.githubusercontent.com/118959734/205816909-bfa95e90-f12b-41b2-b9ef-49dbb4ef744b.png)
 
 ### 5.Circuit Breaker  
