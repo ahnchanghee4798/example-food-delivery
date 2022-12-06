@@ -35,6 +35,12 @@
 ## DDD 적용
 ![image](https://user-images.githubusercontent.com/118959734/205806811-d569d167-caee-4d7b-8c8d-4c07ad5e08de.png)
 
+추가 1 : 고객은 결재내역과 상태를 확인한다.
+![image](https://user-images.githubusercontent.com/118959734/205819379-6b3bf139-9286-4b43-a56b-ce2d51330591.png)
+
+추가2 : 라이더는 pick이 있는지 여부와 배달완료가 되었는지 확인한다.
+![image](https://user-images.githubusercontent.com/118959734/205819823-9e2a0997-aeb4-4f6d-838c-f6047cd050c4.png)
+
 
 # 구현
 ## 체크포인트
@@ -51,14 +57,38 @@
 
 
 ### 2.CQRS
+OrderPlace, Paid, OrderAccept, OrderReject, OrderStart, OrderFinish, Pick 와 같이 주문 상태가 변하는지 확인할 수 있다.
+![image](https://user-images.githubusercontent.com/118959734/205809479-57e837da-d3c4-49b0-b995-2a6aa3fb07e1.png)
+
+![image](https://user-images.githubusercontent.com/118959734/205810092-e92c61de-ba25-4a91-a923-7b2233d34a97.png)
+
+![image](https://user-images.githubusercontent.com/118959734/205810148-018288a4-da67-47e1-8bba-e16dacf63df0.png)
+
 
 ### 3.Compensation/Correlation 
+주문하면 아래와 같이 payment에 저장된다.
+![image](https://user-images.githubusercontent.com/118959734/205810461-818f34fb-c644-48a2-bedd-5189608de4c3.png)
+![image](https://user-images.githubusercontent.com/118959734/205810817-ef75b05d-43a8-4ef0-beef-e9b31d08ac8d.png)
+
+![image](https://user-images.githubusercontent.com/118959734/205811751-f2f9ea66-199a-4b4f-85a2-113125f08cfb.png)
+
 
 ### 4.Request/Response  
+주문 취소시의 결제가 되어있는지 확인을 한뒤 결제가 되어있고 아직 요리를 시작하지 않았다면 결제 취소를 요청한다.
+![image](https://user-images.githubusercontent.com/118959734/205816088-e164f457-3866-4952-9a1a-7f09cfef3345.png)
+Request를 받아 처리하는 로직이다.
+![image](https://user-images.githubusercontent.com/118959734/205816909-bfa95e90-f12b-41b2-b9ef-49dbb4ef744b.png)
 
 ### 5.Circuit Breaker  
+timeout 시간 설정
+![image](https://user-images.githubusercontent.com/118959734/205817607-07570e57-a781-420b-97ce-0bf8622cd74b.png)
+Circuit Breaker 가 발동되면 fallback 에서 throw를 내놓도록 설정
+![image](https://user-images.githubusercontent.com/118959734/205818155-53930fee-3b88-425d-9d46-3564fd639e99.png)
+![image](https://user-images.githubusercontent.com/118959734/205820120-84133582-b580-4735-ac6e-18504cd470e3.png)
 
 ### 6.Gateway/Ingress  
+![image](https://user-images.githubusercontent.com/118959734/205820385-b2bb32ba-f89f-44bb-ae16-0e7836f4ddfe.png)
+![image](https://user-images.githubusercontent.com/118959734/205820450-4d7554e7-021e-45de-ba13-bcb300a1ccf6.png)
 
 
 
