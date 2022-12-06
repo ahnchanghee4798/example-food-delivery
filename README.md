@@ -78,7 +78,7 @@ CQRS 가 설정된 소스 내용
 
 ![image](https://user-images.githubusercontent.com/118959734/205810817-ef75b05d-43a8-4ef0-beef-e9b31d08ac8d.png)
 
-취소시 처리하는 소스 구현 내역
+주문 취소시 결제 취소 처리하는 소스 구현 내역
 
 ![image](https://user-images.githubusercontent.com/118959734/205811751-f2f9ea66-199a-4b4f-85a2-113125f08cfb.png)
 
