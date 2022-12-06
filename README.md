@@ -40,6 +40,15 @@
 ## 체크포인트
 
 ### 1.Saga(Pub/Sub)
+고객이 주문하고 결재가 처리되면 상점에 주문내역이 전달된다.
+![image](https://user-images.githubusercontent.com/118959734/205808546-41d561a4-2ea1-41d5-96fc-b93516060759.png)
+
+![image](https://user-images.githubusercontent.com/118959734/205808638-ee4d0c3f-0240-4e90-86dc-7529b76a757b.png)
+
+![image](https://user-images.githubusercontent.com/118959734/205808796-f37da38d-4215-407d-b938-66174b950678.png)
+![image](https://user-images.githubusercontent.com/118959734/205808844-a320ee59-cd0b-47be-afcb-738d1fa9de7c.png)
+
+
 
 ### 2.CQRS
 
