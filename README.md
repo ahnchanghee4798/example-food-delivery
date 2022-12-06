@@ -33,15 +33,7 @@
 2. 라이더는 pick이 있는지 여부와 배달완료가 되었는지 확인한다.
 
 ## DDD 적용
-
-
-
-
-## 추가 사항
-
-
-
-
+![image](https://user-images.githubusercontent.com/118959734/205806811-d569d167-caee-4d7b-8c8d-4c07ad5e08de.png)
 
 
 # 구현
