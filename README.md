@@ -103,6 +103,9 @@ Circuit Breaker 가 발동되면 fallback 에서 throw를 내놓도록 설정
 ![image](https://user-images.githubusercontent.com/118959734/205818155-53930fee-3b88-425d-9d46-3564fd639e99.png)
 ![image](https://user-images.githubusercontent.com/118959734/205820120-84133582-b580-4735-ac6e-18504cd470e3.png)
 
+![image](https://user-images.githubusercontent.com/118959734/205835536-3b3c29f5-f22c-4bf2-8a8d-b5c82811abb9.png)
+
+
 ### 6.Gateway/Ingress  
 ![image](https://user-images.githubusercontent.com/118959734/205820385-b2bb32ba-f89f-44bb-ae16-0e7836f4ddfe.png)
 ![image](https://user-images.githubusercontent.com/118959734/205820450-4d7554e7-021e-45de-ba13-bcb300a1ccf6.png)
