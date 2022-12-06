@@ -111,6 +111,10 @@ Circuit Breaker 가 발동되면 fallback 에서 throw를 내놓도록 설정
 ![image](https://user-images.githubusercontent.com/118959734/205820385-b2bb32ba-f89f-44bb-ae16-0e7836f4ddfe.png)
 ![image](https://user-images.githubusercontent.com/118959734/205820450-4d7554e7-021e-45de-ba13-bcb300a1ccf6.png)
 
+gateway의 8088로 접속 확인
+
+![image](https://user-images.githubusercontent.com/118959734/205846690-5087f8fa-8990-41ba-8384-f6721474ff4a.png)
+
 
 
 
