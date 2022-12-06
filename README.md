@@ -60,6 +60,7 @@
 
 ### 2.CQRS
 OrderPlace, Paid, OrderAccept, OrderReject, OrderStart, OrderFinish, Pick 와 같이 주문 상태가 변하는지 확인할 수 있다.
+
 DDD 에서 CQRS 설정
 
 ![image](https://user-images.githubusercontent.com/118959734/205809479-57e837da-d3c4-49b0-b995-2a6aa3fb07e1.png)
