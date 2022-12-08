@@ -109,6 +109,10 @@
    포워딩하는 구조로 해야 한다. 온라인 교육에서 자동 생성
    1. 트래픽 라우팅 부문 신원 인가 부분 트래픽 메니져먼트 부문
       만들어 준것을 잘설명 한다.
+      ![image](https://user-images.githubusercontent.com/119610308/206438699-6de786ec-12c9-4f4f-9f2e-5877b3120455.png)
+      ![image](https://user-images.githubusercontent.com/119610308/206438755-02810d69-4765-4b8b-b4c4-90859edc2545.png)
+     ![image](https://user-images.githubusercontent.com/119610308/206438786-41855f40-922c-48d5-ac55-2c7c0c4c9460.png)
+
 	  
-![image](https://user-images.githubusercontent.com/119610308/205837938-56897f6f-632a-41d9-9c7c-e1f3f1ee0e7b.png)
+
 
