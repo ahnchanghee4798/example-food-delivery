@@ -94,6 +94,8 @@
    rest로 호출했을때 기다리다가 서킷프래이커를 달자 임계치를 준다음 중지 시킨다.
    증적 자료가 있어야 한다.
    쿼리해서 워킹한다.
+   ![image](https://user-images.githubusercontent.com/119610308/206431611-0e206747-fbe8-41a2-b5c7-f5cde214e3bc.png)
+
    ![image](https://user-images.githubusercontent.com/119610308/206429538-61d3b915-f7d3-4633-9264-c74c09fe60b9.png)
 
    ![image](https://user-images.githubusercontent.com/119610308/206429340-64b68bab-eef5-494c-a91c-a40603cf9a33.png)
