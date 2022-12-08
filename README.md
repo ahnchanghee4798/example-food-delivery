@@ -94,8 +94,13 @@
    rest로 호출했을때 기다리다가 서킷프래이커를 달자 임계치를 준다음 중지 시킨다.
    증적 자료가 있어야 한다.
    쿼리해서 워킹한다.
-   
-![image](https://user-images.githubusercontent.com/119610308/205837628-3882cf09-79e2-4457-9a96-0f04c4c1ea7d.png)
+   ![image](https://user-images.githubusercontent.com/119610308/206429538-61d3b915-f7d3-4633-9264-c74c09fe60b9.png)
+
+   ![image](https://user-images.githubusercontent.com/119610308/206429340-64b68bab-eef5-494c-a91c-a40603cf9a33.png)
+
+   ![image](https://user-images.githubusercontent.com/119610308/206429205-6e64a46f-6ccb-4895-86ab-93b71c3c0860.png)
+   ![image](https://user-images.githubusercontent.com/119610308/206429234-cdd660b0-65e4-4ada-9476-594f5add822d.png)
+
    
    
 6. Gateway / Ingress
