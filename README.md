@@ -33,7 +33,15 @@
 2. 라이더는 pick이 있는지 여부와 배달완료가 되었는지 확인한다.
 
 ## DDD 적용
-![image](https://user-images.githubusercontent.com/118959734/205806811-d569d167-caee-4d7b-8c8d-4c07ad5e08de.png)
+1차 모델
+
+![image](https://user-images.githubusercontent.com/118959734/206359737-25ef0266-1157-457d-a552-2160680258d3.png)
+
+
+기능/비기능 요구사항 충족 여부
+
+![image](https://user-images.githubusercontent.com/118959734/206359630-e5e391b6-d132-43a1-bfa3-7a131a565f17.png)
+
 
 추가 1 : 고객은 결재내역과 상태를 확인한다.
 ![image](https://user-images.githubusercontent.com/118959734/205819379-6b3bf139-9286-4b43-a56b-ce2d51330591.png)
@@ -46,15 +54,19 @@
 ## 체크포인트
 
 ### 1.Saga(Pub/Sub)
-고객이 주문하고 결재가 처리되면 상점에 주문내역이 전달된다.
-![image](https://user-images.githubusercontent.com/118959734/205808546-41d561a4-2ea1-41d5-96fc-b93516060759.png)
+고객이 주문하고 결재가 처리되면 상점에 주문내역이 전달된다. (Pub)
 
-![image](https://user-images.githubusercontent.com/118959734/205808638-ee4d0c3f-0240-4e90-86dc-7529b76a757b.png)
+![image](https://user-images.githubusercontent.com/118959734/206338492-ca5a4e9b-9e2b-457d-8278-feef8a5470bd.png)
 
-상점에서 주문내역을 확인한다.
 
-![image](https://user-images.githubusercontent.com/118959734/205808796-f37da38d-4215-407d-b938-66174b950678.png)
-![image](https://user-images.githubusercontent.com/118959734/205808844-a320ee59-cd0b-47be-afcb-738d1fa9de7c.png)
+![image](https://user-images.githubusercontent.com/118959734/206336508-fc2f0470-32ee-4bc6-a6b5-d4412e982e67.png)
+
+
+상점에서 주문내역을 확인한다. (Sub)
+
+![image](https://user-images.githubusercontent.com/118959734/206336062-9da7b34a-ac4d-475f-8bce-f0b7884a8907.png)
+
+![image](https://user-images.githubusercontent.com/118959734/206336203-98d18922-86eb-485e-b67c-4a22e34e9caa.png)
 
 
 
@@ -70,7 +82,8 @@ CQRS 가 설정된 소스 내용
 
 상태 조회를 한 결과 내용
 
-![image](https://user-images.githubusercontent.com/118959734/205810148-018288a4-da67-47e1-8bba-e16dacf63df0.png)
+![image](https://user-images.githubusercontent.com/118959734/206338261-7d4ce4d3-39f2-494e-a5a7-9c903fbf3d0c.png)
+
 
 
 ### 3.Compensation/Correlation 
@@ -94,6 +107,10 @@ Request를 받아 처리하는 로직이다.
 ![image](https://user-images.githubusercontent.com/118959734/205816909-bfa95e90-f12b-41b2-b9ef-49dbb4ef744b.png)
 
 ### 5.Circuit Breaker  
+
+모델에서 Relation 의 Circuit Breaker 설정
+
+![image](https://user-images.githubusercontent.com/118959734/206360016-b513ff6a-9a45-4b71-ab81-1930cbc94095.png)
 
 timeout 시간 설정
 
